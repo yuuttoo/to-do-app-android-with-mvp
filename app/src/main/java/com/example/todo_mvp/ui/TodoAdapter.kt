@@ -1,12 +1,11 @@
-package com.example.todo_mvp
+package com.example.todo_mvp.ui
 
-import android.os.strictmode.UntaggedSocketViolation
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.todo_mvp.data.TodoContent
+import com.example.todo_mvp.data.model.TodoContent
 import com.example.todo_mvp.databinding.ItemTodoBinding
 
 class TodoAdapter(

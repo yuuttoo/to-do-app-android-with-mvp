@@ -1,4 +1,4 @@
-package com.example.todo_mvp.data
+package com.example.todo_mvp.data.model
 
 data class TodoContent(
     val id: Int,

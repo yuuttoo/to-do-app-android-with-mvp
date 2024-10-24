@@ -1,9 +1,6 @@
 package com.example.todo_mvp.presenter
 
-import android.os.Parcel
-import android.os.Parcelable
-import com.example.todo_mvp.data.TodoContent
-import com.example.todo_mvp.data.TodoContract
+import com.example.todo_mvp.data.model.TodoContent
 import com.example.todo_mvp.data.model.TodoRepository
 
 class TodoPresenter(

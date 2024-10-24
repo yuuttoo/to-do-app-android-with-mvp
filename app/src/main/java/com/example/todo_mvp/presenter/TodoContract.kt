@@ -1,4 +1,6 @@
-package com.example.todo_mvp.data
+package com.example.todo_mvp.presenter
+
+import com.example.todo_mvp.data.model.TodoContent
 
 
 interface TodoContract {//類似viewModel的工作

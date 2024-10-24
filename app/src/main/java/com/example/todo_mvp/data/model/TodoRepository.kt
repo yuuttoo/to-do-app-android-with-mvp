@@ -1,7 +1,5 @@
 package com.example.todo_mvp.data.model
 
-import com.example.todo_mvp.data.TodoContent
-
 class TodoRepository {
     private val todos = mutableListOf<TodoContent>()
     private var nextId = 1

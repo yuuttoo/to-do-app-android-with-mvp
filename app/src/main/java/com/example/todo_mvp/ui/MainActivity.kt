@@ -1,16 +1,13 @@
-package com.example.todo_mvp
+package com.example.todo_mvp.ui
 
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.todo_mvp.data.TodoContent
-import com.example.todo_mvp.data.TodoContract
+import com.example.todo_mvp.data.model.TodoContent
+import com.example.todo_mvp.presenter.TodoContract
 import com.example.todo_mvp.data.model.TodoRepository
 import com.example.todo_mvp.databinding.ActivityMainBinding
 import com.example.todo_mvp.databinding.DialogAddTodoBinding
